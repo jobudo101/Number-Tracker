@@ -5,7 +5,7 @@ from key import keys
 
 
 
-number = +15593005133 
+number = input("Enter phone number with country code:")
 
 
 check_number = phonenumbers.parse(number)
